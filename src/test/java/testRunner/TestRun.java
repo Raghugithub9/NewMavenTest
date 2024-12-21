@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
 	(
-	features={".//Features/login.feature"},
+	features={".//Features/login2.feature"},
 	glue="stepDefinitions",
 	tags = {"@smoke"},
 	dryRun=false,
