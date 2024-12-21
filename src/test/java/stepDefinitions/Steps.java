@@ -17,7 +17,7 @@ public class Steps {
 
 	@Given("User Launch Chrome Browser")
 	public void user_launch_chrome_browser(){
-		System.setProperty("webdriver.chrome.driver", "geckodriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "geckodriver.exe");
 		driver=new FirefoxDriver();
 
 	lp=new LoginPage(driver);
