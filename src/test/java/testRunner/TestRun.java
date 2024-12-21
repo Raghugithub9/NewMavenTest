@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 	(
 	features={".//Features/login2.feature"},
 	glue="stepDefinitions",
-	tags = {"@smoke"},
+	tags = {"@Regression"},
 	dryRun=false,
 	monochrome=true,
 	plugin= {"pretty","html:test-output"}
