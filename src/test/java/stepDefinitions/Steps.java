@@ -29,9 +29,9 @@ public class Steps {
 	}
 
 	//@When("User enters Email as {string} and Password as {string}")
-	//@When("User enters Email as {string} and Password as {string}")
+	@When("User enters Email as {string} and Password as {string}")
 	
-	@When("^User enters Email as (.+) and Password as (.+)$")
+	//@When("^User enters Email as (.+) and Password as (.+)$")
 	public void user_enters_Email_as_and_Password_as(String username, String password){
 	lp.setUserName(username);
 	lp.setPassword(password);
