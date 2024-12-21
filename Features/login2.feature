@@ -1,5 +1,5 @@
 Feature: Login
-
+@Sanity
 Scenario: Successful Login with Valid Credentials
 	Given User Launch Chrome Browser
 	When User opens URL "https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"
